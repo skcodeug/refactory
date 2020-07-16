@@ -1,0 +1,29 @@
+{
+  "name": "refactory",
+  "version": "1.0.0",
+  "main": "codelabone-refactored.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muganda/refactory.git"
+  },
+  "keywords": [],
+  "author": "Stephen Kasirye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muganda/refactory/issues"
+  },
+  "homepage": "https://github.com/muganda/refactory#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "chai": "^4.2.0"
+  },
+  "description": "Learning Code Smells then refactoring"
+}

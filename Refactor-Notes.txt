@@ -1,0 +1,9 @@
+This is the recommended process of Code Refactoring:
+1: Create a separate branch
+2: Run code through a linter
+3: Setup Code Climate to see the issues
+4: Write unit tests
+5: Refactor
+6: Go to step 2: above and repeat the process
+
+Hint: when refactoring; don't rename the file to another like ver2, etc; use the very same
