@@ -46,5 +46,5 @@ jobs:
       env:
         CC_TEST_REPORTER_ID: 6d1af1472da03c16bb2265dbac9468d9553cdde02f8fbc193e8fc8cb86d600f1
       with:
-        coverageCommand: nyc mocha || true
+        coverageCommand: yarn coverage
         debug: true

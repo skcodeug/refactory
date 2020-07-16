@@ -18,8 +18,7 @@
   "scripts": {
     "test": "nyc ./node_modules/mocha/bin/mocha || true",
     "coverage": "nyc --reporter=lcov --reporter=text-summary npm test",
-    "coveralls": "cat ./coverage/lcov.info | node coveralls",
-    "coverall": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
