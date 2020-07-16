@@ -11,5 +11,7 @@ var v4 = (22 / 7) * array3[0] * array3[0] * array3[0] * array3[1];
         return [[area1, p1], [a2, p2], [a3, p3], [a4, v4]];
 }
 
-let areas = compute_geometries(2, [3, 4], [4, 5], [3, 7]);
+let areas = computeGeometries(2, [3, 4], [4, 5], [3, 7]);
 console.log(areas);
+
+module.exports = computeGeometries;
