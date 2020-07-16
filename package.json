@@ -16,7 +16,8 @@
     "mocha": "^8.0.1"
   },
   "scripts": {
-    "test": "nyc mocha || true"
+    "test": "nyc mocha || true",
+    "coverage": "nyc --reporter=lcov --reporter=text-summary npm test"
   },
   "repository": {
     "type": "git",
