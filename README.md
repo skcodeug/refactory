@@ -8,4 +8,4 @@
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-[![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/skcodeug?tab=followers)
+[![Coverage Status](https://coveralls.io/repos/github/skcodeug/refactory/badge.svg?branch=master)](https://coveralls.io/github/skcodeug/refactory?branch=master)
