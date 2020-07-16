@@ -9,3 +9,5 @@
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 [![Coverage Status](https://coveralls.io/repos/github/skcodeug/refactory/badge.svg?branch=master)](https://coveralls.io/github/skcodeug/refactory?branch=master)
+
+[![Build Status](https://travis-ci.org/skcodeug/refactory.svg?branch=master)](https://travis-ci.org/skcodeug/refactory)
