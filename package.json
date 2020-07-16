@@ -16,7 +16,7 @@
     "mocha": "^8.0.1"
   },
   "scripts": {
-    "test": "nyc mocha || true",
+    "test": "nyc ./node_modules/mocha/bin/mocha || true",
     "coverage": "nyc --reporter=lcov --reporter=text-summary npm test",
     "coveralls": "cat ./coverage/lcov.info | node coveralls"
   },
